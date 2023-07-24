@@ -10,8 +10,8 @@ function BackToTop() {
       const myBtn = myBtnRef.current;
       if (myBtn) {
         if (
-          document.body.scrollTop > 250 ||
-          document.documentElement.scrollTop > 250
+          document.body.scrollTop > 1000 ||
+          document.documentElement.scrollTop > 1000
         ) {
           myBtn.style.display = 'flex';
         } else {
