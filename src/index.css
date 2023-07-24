@@ -16,7 +16,7 @@
 } */
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--black);
+  background: var(--theme);
 }
 
 /* Handle */
