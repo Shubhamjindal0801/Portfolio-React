@@ -2,7 +2,6 @@ import React from 'react'
 import './styles.css'
 import TemporaryDrawer from "./drawer";
 import { Link } from 'react-router-dom';
-import SampleImage from '../../assets/leRrq4O9hZvjfg9stckiu.jpg';
 
 function Header() {
     return (
