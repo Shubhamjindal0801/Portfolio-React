@@ -11,9 +11,7 @@ function Header() {
             <div className='navbar'>
                 <Link className='links' to="/">Home</Link>
                 <Link className='links' to="/project">Projects</Link>
-                <Link className='links' to="/resume">Resume</Link>
-                <Link className='links' to="#">Portfolio</Link>
-                <Link className='links' to="#">Contact</Link>
+                <Link className='links' to="/contact">Contact</Link>
             </div>
             <div className="mobile-drawer">
                 <TemporaryDrawer />

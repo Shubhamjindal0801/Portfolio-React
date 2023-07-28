@@ -1,41 +1,9 @@
-/* .resume-download{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap:2rem;
-    padding: 3rem;
-}
-.resume-img{
-    width: 60%;
-}
-.resume-btn{
-    padding: 1rem;
-    border-radius: 1rem;
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 1.2rem;
-    border: 2px solid #fff;
-    cursor: pointer;
-    font-style: italic;
-    transition: all 0.4s;
-}
-.resume-btn:hover{
-    transform: scale(0.8);
-} */
-
-.pdf-conatiner{
+.pdf-container{
     width: 100%;
-    height:900px;
-    overflow-y: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
-.view-pdf-btn{
+
+.pdf-download-btn{
     padding: 1rem;
     border-radius: 1rem;
     background-color: transparent;
@@ -45,4 +13,5 @@
     border: 2px solid #fff;
     cursor: pointer;
     font-style: italic;
+    margin-top: 10px;
 }

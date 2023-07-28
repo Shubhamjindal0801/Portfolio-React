@@ -11,10 +11,10 @@ function LandingPage() {
                 <div className='home-content'>
                     <h1>Hi, I'm Shubham Jindal</h1>
                     <h3>Frontend Developer</h3>
-                    <p>Hello, myself Shubham Jindal and currently i am learning full stack web developing course. In this course i learnied HTML, CSS, Javascript and React. I made several projects during the course and made some projects by myself also.</p>
+                    <p>Hello, I am Shubham Jindal, and currently, I am learning a full stack web development course. Throughout this comprehensive program, I have delved into essential technologies like HTML, CSS, JavaScript, and React. Along the way, I have successfully completed numerous projects assigned during the course and even took the initiative to work on some personal projects independently.</p>
                     <div className='btn-box'>
-                        <a href='#'>Hire Me</a>
-                        <a href='#'>Let's Talk</a>
+                        {/* <a href='#'>Hire Me</a> */}
+                        <a href='/contact'>Let's Talk</a>
                     </div>
                 </div>
                 <div className='sample-div'>
@@ -23,15 +23,15 @@ function LandingPage() {
             </div>
             <div class="home-sci">
                 <Tooltip placement='bottom' title='Github'>
-                    <a to="https://github.com/Shubhamjindal0801" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://github.com/Shubhamjindal0801" target="_blank"><i class='bx bxl-github'></i></a>
                 </Tooltip>
                 <Tooltip placement='bottom' title='Email'>
-                    <a to="mailto:shubhamjindal61999@gmail.com/" target="_blank"><span class="material-symbols-outlined">
+                    <a href="mailto:shubhamjindal61999@gmail.com/" target="_blank"><span class="material-symbols-outlined">
                         mail
                     </span></a>
                 </Tooltip>
                 <Tooltip placement='bottom' title='Linkedin'>
-                    <a to="https://www.linkedin.com/in/shubham-jindal-0801" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.linkedin.com/in/shubham-jindal-0801" target="_blank"><i class='bx bxl-linkedin' ></i></a>
                 </Tooltip>
             </div>
         </>

@@ -8,7 +8,7 @@ function Projects() {
         <div>
             <Header />
             <ProjectLandingPage />
-            <TopReach />
+            <TopReach/> 
         </div>
     )
 }
