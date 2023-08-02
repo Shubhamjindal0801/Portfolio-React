@@ -29,6 +29,7 @@
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
+
 @keyframes showRight {
     100%{
         width:0;
@@ -60,7 +61,7 @@
         font-size: 1.2rem;
     }
     .drawer-div{
-        width: 24vw;
+        min-width: 30vw;
         height: 100vh;
         padding: 1.5rem;
         display: flex;
