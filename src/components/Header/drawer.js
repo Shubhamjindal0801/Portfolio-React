@@ -27,7 +27,7 @@ function DrawerBox() {
                 <div className='drawer-div'>
                     <Link className='link' to="/">Home</Link>
                     <Link className='link' to="/project">Projects</Link>
-                    <Link className='link' to="#">Contact</Link>
+                    <Link className='link' to="/contact">Contact</Link>
                 </div>
             </Drawer>
         </div>
